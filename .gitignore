@@ -1,0 +1,5 @@
+src/MatrexWeb/build
+src/MatrexWeb/dist
+src/MatrexWeb/lib
+.DS*
+.metadata*

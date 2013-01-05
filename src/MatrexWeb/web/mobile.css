@@ -1,0 +1,139 @@
+html {
+    background: #202020;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    color: white;
+    font-family: Helvetica;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    -webkit-text-size-adjust: none;
+}
+
+h1 {
+    margin: 0;
+    border-bottom: 3px solid #000;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #fff;
+    background: black url(images/toolbar.png) repeat-x;
+}
+
+textarea, select, button {
+    border: 1px solid #111;
+    font-size: 16px;
+    background: #444;
+    color: #fff;
+    font-family: helvetica, sans-serif;
+    background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#444));
+    -webkit-appearance: none;
+    -webkit-box-shadow: 1px 1px 1px #333;
+}
+
+textarea {
+    width: 90%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+    margin: 10px 0px;
+    border: 2px solid #333;
+    -webkit-border-radius: 6px; /* Rounds corners on element */
+}
+
+select {
+    width: auto;
+    max-width: 100px;
+    background: #444 url("images/chevron.png") no-repeat right center;  /* Arrow image for right of select box */
+    text-shadow: 0 0 2px #300;
+    font-weight: bold;
+    padding: 2px 25px 2px 5px;
+}
+
+button {    /* Common styles for all buttons */
+    width: auto;
+    padding: 2px 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#222));
+    border: 2px solid #444;
+    text-shadow: 0 0 2px #300;
+    font-weight: bold;
+    -webkit-box-shadow: 1px 1px 3px #000;
+}
+
+.pic {  /* Each image is masked by a circular mask */
+    /*dimensions of mask*/
+    height: 44px;
+    width: 50px;
+    
+    float: right;
+    -webkit-mask-image: url(images/circle.png);
+    margin-top: 5px;
+}
+
+#language1, #language2 {
+    float: left;
+}
+
+.choice {
+	width: 60%;
+}
+
+#progress { /* Loading div */
+    -webkit-border-radius: 10px;
+    background-color: rgba(0,0,0,.7);
+    font-size: 18px;
+    font-weight: bold;
+    height: 80px;
+    left:20%;
+    line-height: 80px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    width: 60%;
+}
+
+/* for hiding purposes */
+.showbut, .showset, .hideapp {
+    display: none;
+}
+
+.but {  /* Common styles for header buttons */
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    line-height: 28px;
+    border-width: 0 4px 0 4px;
+    -webkit-border-image: url(images/button.png) 0 8 0 8;
+}
+
+#trans_but {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+#holder, #done_but {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+#set_but {
+    float: right;
+}
+
+#ref_but {
+    margin-right: 5px;
+    float: left;
+}
+

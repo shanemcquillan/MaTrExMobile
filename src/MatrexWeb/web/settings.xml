@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+	<pair>
+		<source>english</source>
+		<target>french</target>
+		<domain>general purpose</domain>
+		<ip>http://136.206.48.2:16004</ip>
+	</pair>
+	<pair>
+		<source>french</source>
+		<target>english</target>
+		<domain>general purpose</domain>
+		<ip>http://136.206.48.2:16005</ip>
+	</pair>
+	<pair> 
+		<source>english</source>
+		<target>french</target>
+		<domain>sport</domain> 
+		<ip>http://136.206.48.2:16000</ip> 
+	</pair> 
+	<pair> 
+		<source>french</source>
+		<target>english</target>
+		<domain>sport</domain> 
+		<ip>http://136.206.48.2:16001</ip> 
+	</pair> 
+	<pair> 
+		<source>english</source>
+		<target>spanish</target>
+		<domain>sport</domain> 
+		<ip>http://136.206.48.2:16002</ip> 
+	</pair> 
+	<pair> 
+		<source>spanish</source>
+		<target>english</target>
+		<domain>sport</domain> 
+		<ip>http://136.206.48.2:16003</ip> 
+	</pair>
+        <engine>
+            <name>Google</name>
+            <searchurl>http://www.google.com/search?q=</searchurl>
+        </engine>
+        <engine>
+            <name>Bing</name>
+            <searchurl>http://m.bing.com/search/search.aspx?q=</searchurl>
+        </engine>
+</settings>
